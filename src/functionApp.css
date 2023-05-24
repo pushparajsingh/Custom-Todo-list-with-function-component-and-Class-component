@@ -1,108 +1,125 @@
 .taskAllBox {
-    display: flex;
-    justify-content: space-around;
-  }
-  .Taskbox {
-    width: 22%;
-  }
-  .Taskbox:hover > div{
-    box-shadow: 1px 1px 10px 2px #5e5ee1;
-  }
-  .done {
-    background: rgb(147, 145, 145);
-    width: 100%;
-    padding: 10px;
-  }
-  .todoList {
-    height: 100px;
-    color: white;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 117, 121, 0.8827906162464986) 82%,
-      #007bff 100%
-    );
-    margin-bottom: 10px;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .progressList {
-    height: 100px;
-    color: white;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 117, 121, 0.8827906162464986) 82%,
-      #ffc107 100%
-    );
-    margin-bottom: 10px;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .testList {
-    height: 100px;
-    color: white;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 117, 121, 0.8827906162464986) 82%,
-      #17a2b8 100%
-    );
-    margin-bottom: 10px;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .completedList {
-    height: 100px;
-    color: white;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 117, 121, 0.8827906162464986) 82%,
-      #28a745 100%
-    );
-    margin-bottom: 10px;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .todoList:hover {
-    box-shadow: 1px 1px 10px 2px #007bff;
-  }
-  .progressList:hover {
-    box-shadow: 1px 1px 10px 2px #ffc107;
-  }
-  .testList:hover {
-    box-shadow: 1px 1px 10px 2px #17a2b8;
-  }
-  
-  .completedList:hover {
-    box-shadow: 1px 1px 10px 2px #28a745;
-  }
-  .todoListBox{
-    min-height: 386px;
-  }
-  .progressListBox {
-    min-height: 386px;
-  }
-  .testListBox {
-    min-height: 386px;
-  }
-  .completedListBox {
-    min-height: 386px;
-  }
+  display: flex;
+  justify-content: space-around;
+}
+.Taskbox {
+  width: 22%;
+}
+
+.done {
+  background: rgb(147, 145, 145);
+  width: 100%;
+  padding: 10px;
+}
+.todoList {
+  height: 100px;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 117, 121, 0.8827906162464986) 82%,
+    #007bff 100%
+  );
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.progressList {
+  height: 100px;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 117, 121, 0.8827906162464986) 82%,
+    #ffc107 100%
+  );
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+
+}
+.testList {
+  height: 100px;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 117, 121, 0.8827906162464986) 82%,
+    #17a2b8 100%
+  );
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.completedList {
+  height: 100px;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 117, 121, 0.8827906162464986) 82%,
+    #28a745 100%
+  );
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.todoList:hover {
+  box-shadow: 1px 1px 10px 2px #007bff;
+}
+.progressList:hover {
+  box-shadow: 1px 1px 10px 2px #ffc107;
+}
+.testList:hover {
+  box-shadow: 1px 1px 10px 2px #17a2b8;
+}
+
+.completedList:hover {
+  box-shadow: 1px 1px 10px 2px #28a745;
+}
+.todoListBox{
+  min-height: 386px;
+}
+.progressListBox {
+  min-height: 386px;
+}
+.testListBox {
+  min-height: 386px;
+}
+.completedListBox {
+  min-height: 386px;
+}
+.todoListBox:hover{
+  box-shadow: 1px 1px 10px 2px #5e5ee1;
+}
+.progressListBox:hover{
+  box-shadow: 1px 1px 10px 2px #ffc107;
+}
+.testListBox:hover{
+  box-shadow: 1px 1px 10px 2px #17a2b8;
+}
+
+.completedListBox:hover{
+  box-shadow: 1px 1px 10px 2px #28a745;
+
+}
