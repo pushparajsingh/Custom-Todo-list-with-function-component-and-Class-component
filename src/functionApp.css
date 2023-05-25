@@ -3,7 +3,7 @@
   justify-content: space-around;
 }
 .Taskbox {
-  width: 22%;
+  width: 24%;
 }
 
 .done {
@@ -46,7 +46,6 @@
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
-
 }
 .testList {
   height: 100px;
@@ -97,29 +96,129 @@
 .completedList:hover {
   box-shadow: 1px 1px 10px 2px #28a745;
 }
-.todoListBox{
+.todoListBox {
   min-height: 386px;
+  max-height: 650px;
+  overflow: auto;
 }
 .progressListBox {
   min-height: 386px;
+  max-height: 650px;
+  overflow: auto;
 }
 .testListBox {
   min-height: 386px;
+  max-height: 650px;
+  overflow: auto;
 }
 .completedListBox {
   min-height: 386px;
+  max-height: 650px;
+  overflow: auto;
 }
-.todoListBox:hover{
+.todoListBox:hover {
   box-shadow: 1px 1px 10px 2px #5e5ee1;
 }
-.progressListBox:hover{
+.progressListBox:hover {
   box-shadow: 1px 1px 10px 2px #ffc107;
 }
-.testListBox:hover{
+.testListBox:hover {
   box-shadow: 1px 1px 10px 2px #17a2b8;
 }
 
-.completedListBox:hover{
+.completedListBox:hover {
   box-shadow: 1px 1px 10px 2px #28a745;
-
 }
+.heightOfElement {
+  height: 60px;
+}
+
+/* width */
+.todoListBox::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.todoListBox::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.todoListBox::-webkit-scrollbar-thumb {
+  background: #007bff; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.todoListBox::-webkit-scrollbar-thumb:hover {
+  background: #0060c6; 
+}
+
+/* width */
+.progressListBox::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.progressListBox::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.progressListBox::-webkit-scrollbar-thumb {
+  background: #ffc107; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.progressListBox::-webkit-scrollbar-thumb:hover {
+  background: #bb8d02; 
+}
+
+/* width */
+.testListBox::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.testListBox::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.testListBox::-webkit-scrollbar-thumb {
+  background: #17a2b8; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.testListBox::-webkit-scrollbar-thumb:hover {
+  background: #0291a7; 
+}
+
+
+/* width */
+.completedListBox::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.completedListBox::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.completedListBox::-webkit-scrollbar-thumb {
+  background: #28a745; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.completedListBox::-webkit-scrollbar-thumb:hover {
+  background: #029724; 
+}
+
